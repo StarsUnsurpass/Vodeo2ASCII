@@ -1,0 +1,40 @@
+﻿cargo :     Checking Vodeo2ASCII v0.1.0 (E:\Code\IDE\RustRover
+\Vodeo2ASCII)
+所在位置 行:1 字符: 1
++ cargo check 2>&1 | Out-File -Encoding utf8 check_output.txt
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (    Checking Vo. 
+   ..er\Vodeo2ASCII):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+warning: unused imports: `Clear` and `Gauge`
+  --> src\main.rs:11:43
+   |
+11 |     widgets::{Block, Borders, BorderType, Clear, Gauge, L
+ineGauge, List, ListItem, ListState, Paragraph, Wrap},
+   |                                           ^^^^^  ^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]
+`) on by default
+
+error[E0599]: no method named `global_cpu_info` found for stru
+ct `sysinfo::System` in the current scope
+   --> src\main.rs:434:32
+    |
+434 |     let cpu_usage = app.system.global_cpu_info().cpu_usa
+ge();
+    |                                ^^^^^^^^^^^^^^^
+    |
+help: there is a method `global_cpu_usage` with a similar name
+    |
+434 -     let cpu_usage = app.system.global_cpu_info().cpu_usa
+ge();
+434 +     let cpu_usage = app.system.global_cpu_usage().cpu_us
+age();
+    |
+
+For more information about this error, try `rustc --explain E0
+599`.
+warning: `Vodeo2ASCII` (bin "Vodeo2ASCII") generated 1 warning
+error: could not compile `Vodeo2ASCII` (bin "Vodeo2ASCII") due
+ to 1 previous error; 1 warning emitted

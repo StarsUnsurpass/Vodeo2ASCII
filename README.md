@@ -2,7 +2,7 @@
 
 一个富有创意的 Rust 命令行工具，能将视频文件实时转换为彩色的 ASCII 字符画动画并在终端中播放。
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/StarsUnsurpass/Vodeo2ASCII)
+[![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)](https://github.com/StarsUnsurpass/Vodeo2ASCII)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## ✨ 核心功能
@@ -71,7 +71,7 @@ sudo apt install ffmpeg
 
 **项目地址**: [https://github.com/StarsUnsurpass/Vodeo2ASCII](https://github.com/StarsUnsurpass/Vodeo2ASCII)  
 **作者主页**: [StarsUnsurpass](https://github.com/StarsUnsurpass)  
-**当前版本**: v0.1.0
+**当前版本**: v0.2.0
 
 ## 📝 开源协议
 
